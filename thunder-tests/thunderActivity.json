@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "236cf8e0-d969-4987-889c-98298a8cb0a8",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://api.coincap.io/v2/assets/",
+    "url": "https://api.coincap.io/v2/assets/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-01-17T07:27:52.938Z",
+    "modified": "2023-01-17T07:27:52.938Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

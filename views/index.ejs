@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Crypto</title>
+    <link rel="stylesheet" href="css/styles.css" class="css">
+</head>
+<body>
+    <center> <h1>Top 10 Crypto Tokens</h1></center>
+<center>
+  <% arr.forEach((datas) =>{ %>
+               
+    <% datas.forEach((data) =>{ %>
+        <div class="card">
+            <br>
+            <h1> <%= data.rank %></h1>
+            <h2>Symbol: <%= data.symbol %></h2>
+            <h2>ID:  <%= data.id %></h2>
+            <h2>Current Value in $:  <%= data.priceUsd %></h2>
+            <h2>Name:  <%= data.name %></h2>
+         </div>
+         <% });%>
+         <% });%> </center>
+</body>
+</html>
